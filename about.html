@@ -28,11 +28,11 @@
                 <li class="nav-item">
                     <a href="index.html" class="nav-link text-dark">Home</a></li>
                     <li class="nav-item">
-                        <a href="about.html" class="nav-link text-dark">About</a></li>
+                        <a href="about.html" class="nav-link " style="color: #FF3E41;">About</a></li>
                         <li class="nav-item">
                             <a href="services.html" class="nav-link text-dark">Services</a></li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-dark" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="true">Pages</a>
+                                <a class="nav-link dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="true">Pages</a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="pricing.html"> Pricing plan</a></li>
                                     <li><hr class="dropdown-divider"></li>
@@ -51,19 +51,26 @@
                                 </div>
         </nav>
       
-        <div class="head img-fluid " style="height: 400px;">
+       <!-- header -->
+         <div class="header img-fluid " style="height: 400px !important;">
+           
             <div class=" greg">
-                <h2>ABOUT</h2>
-            </div>
+                 <h1>About</h1>
+              <div class="d-flex pt-1" style="opacity: 0.7;">
+                <h6>Home/ </h6>
+                <h6>Pages/ </h6>
+                <h6>About</h6>
+              </div>
+            </div> 
         </div>
              <!-- about -->
-             <div id="about">
+             <div id="about" class="">
                 <div class="about">
                     <img src="imggg/about.jpg" class="rounded img-fluid fadeInLeft show "  alt="About">
                 </div>
                 <div class="about-text">
                    <div class="hidden" style="transition-delay: 0.3s;">
-                    <h4 class="text-primary"> About Us.</h4>
+                    <h4 style="color: #51CFED;"> About Us.</h4>
                     <h1 style="line-height: 1.2; font-weight: bold;">Quick Transport and Logistics Solutions</h1>
                     <p class="pt-5 mb-5" style=" display: block; opacity: 0.6;">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                      
@@ -80,7 +87,7 @@
                         <p style=" display: block; opacity: 0.6 ;">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam justo.</p>
                     </div>
                 </div>
-                <div class="pt-5 "><a class="explore pt-3 pb-3 pe-5 ps-5 mt-5" href=""> Explore more</a></div>
+                <div class="pt-5 hidden" style="transition-delay: 0.8s;"><a class="explore pt-3 pb-3 pe-5 ps-5 mt-5" href=""> Explore more</a></div>
                 </div>
            </div>
 
@@ -88,7 +95,7 @@
                <!-- facts  -->
                <div class="facts mt-5"> 
                 <div class="facts-text hidden" style="margin-left: 10px; color: black;">
-                    <h4 class="text-primary"> Some Facts.</h4>
+                    <h4  style="color: #51CFED;"> Some Facts.</h4>
                     <h1 style="line-height: 1.2; font-weight: bold;">#1 Place To Manage All Of Your Shipments</h1>
                     <p class="pt-5 mb-5" style=" display: block; opacity: 0.6;">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                     <div class="d-flex pt-4 mb-5">
@@ -106,22 +113,22 @@
                         <div class="Happy hidden" style="width: 48%;">
                             <div style="background-color: #FF3E41;height: 160px; margin-bottom: 30px;padding:20px;">
                                 <i class="fa fa-users text-light p-2"></i>
-                                <span id="numbers"></span>
-                                <p class="pt-5">Happy Clients</p>
+                                <h2 id="numbers">1234</h2>
+                                <p >Happy Clients</p>
         
                             </div>
                             <div class="Happy hidden" style="background-color: #51CFED;height: 160px;padding:20px;">
                                 <i class="fa fa-ship text-light p-2"></i>
-                                <span id="numbers"></span>
-                                <p class="pt-5">Complete Shipments</p>
+                                <h2 id="numbers2"> 1234</h2>
+                                <p class="">Complete Shipments</p>
         
                             </div>
                         </div>
                          <div class="Happy hidden" style="width: 48%;">
                             <div class="happydiv" style="background-color: #198754; ;height: 160px;margin-top: 40%;padding:20px;">
                                 <i class="fa fa-star text-light p-2"></i>
-                                <span id="numbers"></span>
-                                <p class="pt-5">Customers Review</p>
+                                <h2 id="numbers3">1234</h2>
+                                <p>Customers Review</p>
         
                             </div>
                          </div>
@@ -178,7 +185,7 @@
     
 
       
-   <!-- footer -->
+ <!-- footer -->
    <div class="footer mt-5 text-light bg-dark" style="height: 100%;"> 
                 <div class="d-flex justify-content-between mt-5 p-4 footer-grid">
                     <div class="footer-item p-1 pt-5">
@@ -207,20 +214,20 @@
                  <div class="footer-item p-5">
                     <h4>Services</h4>
                    <div>
-                    <a href="" class=" btn-link ps-2">air freight</a>
-                    <a href="" class=" btn-link ps-2">sea freight</a>
-                    <a href="" class=" btn-link ps-2">road freight</a>
-                    <a href="" class=" btn-link ps-2">Logistics Solutions</a>
-                    <a href="" class=" btn-link ps-2">industry solutions</a>
+                    <a href="services.html" class=" btn-link ps-2">air freight</a>
+                    <a href="services.html" class=" btn-link ps-2">sea freight</a>
+                    <a href="services.html" class=" btn-link ps-2">road freight</a>
+                    <a href="services.html" class=" btn-link ps-2">Logistics Solutions</a>
+                    <a href="services.html" class=" btn-link ps-2">industry solutions</a>
                    </div>
                  </div>
             
                  <div class="footer-item p-5">
                     <h4>Quick Links</h4>
                    <div>
-                    <a href="" class=" btn-link ps-2">about us</a>
-                    <a href="" class=" btn-link ps-2">contact us</a>
-                    <a href="" class=" btn-link ps-2">our services</a>
+                    <a href="about.html" class=" btn-link ps-2">about us</a>
+                    <a href="contact.html" class=" btn-link ps-2">contact us</a>
+                    <a href="services.html" class=" btn-link ps-2">our services</a>
                     <a href="" class=" btn-link ps-2">term & conditions</a>
                     <a href="" class=" btn-link ps-2">support</a>
                    </div>
@@ -231,7 +238,7 @@
                     <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                     <div class="position-relative">
                         <input type="text" placeholder="Your Email" class="form-control ps-2 py-3">
-                        <button type="submit" class="mt-2 me2  p-2" style="background-color: #FF3E41;color: white; border: none;">Sign In</button>
+                        <button onclick="alert('Submitted')" type="submit" class="mt-2 me2  p-2" style="background-color: #FF3E41;color: white; border: none;">Sign In</button>
                     </div>
                 </div>
 
@@ -242,7 +249,7 @@
     <h6>All right's reserved.</h6>
     <p class="ft-1">Vida Codes</p>
    </div>
-        </div> 
+        </div>
     
 ;
     </div>
@@ -262,6 +269,95 @@
             });
         });
         document.querySelectorAll('.hidden','.hidden-left','.hidden-right','fadeInLeft').forEach(el=>observer.observe(el));
-    </script>  
+    </script>
+    
+    <script>
+        function counterUp(el,target,duration){
+        let start = 0;
+        let startTime = null;
+
+        function animate(currentTime) {
+            if(!startTime) startTime = currentTime;
+            const progress= Math.min((currentTime-startTime)/duration, 1);
+
+            const easedValue =Math.floor(progress*(target-start)+ start);
+
+            el.textContent =easedValue;
+            if(progress<1){
+                requestAnimationFrame(animate)
+            }
+        }
+        requestAnimationFrame(animate)
+    }
+   const counterEls = document.getElementById('numbers');
+    const observeds = new IntersectionObserver(entries=>{
+        entries.forEach(entry=>{
+            if(entry.isIntersecting){
+                counterUp(counterEls,1234,3000);
+                observeds.unobserve(counterEls);
+            }
+        })
+    })
+    observeds.observe(counterEls);
+    </script>
+    <script>
+        function counterUp(el,target,duration){
+        let start = 0;
+        let startTime = null;
+
+        function animate(currentTime) {
+            if(!startTime) startTime = currentTime;
+            const progress= Math.min((currentTime-startTime)/duration, 1);
+
+            const easedValue =Math.floor(progress*(target-start)+ start);
+
+            el.textContent =easedValue;
+            if(progress<1){
+                requestAnimationFrame(animate)
+            }
+        }
+        requestAnimationFrame(animate)
+    }
+    const counterEl = document.getElementById('numbers2');
+    const observed = new IntersectionObserver(entries=>{
+        entries.forEach(entry=>{
+            if(entry.isIntersecting){
+                counterUp(counterEl,1234,3000);
+                observed.unobserve(counterEl);
+            }
+        })
+    })
+    observed.observe(counterEl);
+   
+    </script>
+    <script>
+        function counterUp(el,target,duration){
+        let start = 0;
+        let startTime = null;
+
+        function animate(currentTime) {
+            if(!startTime) startTime = currentTime;
+            const progress= Math.min((currentTime-startTime)/duration, 1);
+
+            const easedValue =Math.floor(progress*(target-start)+ start);
+
+            el.textContent =easedValue;
+            if(progress<1){
+                requestAnimationFrame(animate)
+            }
+        }
+        requestAnimationFrame(animate)
+    }
+     const counterEll = document.getElementById('numbers3');
+    const observes = new IntersectionObserver(entries=>{
+        entries.forEach(entry=>{
+            if(entry.isIntersecting){
+                counterUp(counterEll,1234,3000);
+                observes.unobserve(counterEll);
+            }
+        })
+    })
+    observes.observe(counterEll);
+    </script>
 </body>
 </html>

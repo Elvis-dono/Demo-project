@@ -8,3 +8,5 @@
         });
     });
     document.querySelectorAll('.hidden','.hidden-left','.hidden-right').forEach(el(observer.observe(el)));
+
+    
